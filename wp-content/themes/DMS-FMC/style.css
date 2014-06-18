@@ -1,0 +1,322 @@
+/*  
+Theme Name: Free Market Cafe Site Theme
+Description: A child theme built on Pagelines DMS for Free Market Cafe
+Version: 1.2
+Author: Chris Pittman Jr
+Author URI: http://chrispittmanjr.com
+Template: dms
+*/
+
+/* Extra small devices (phones, up to 480px) */
+/* No media query since this is the default in Bootstrap */
+
+/*Site-wide styling*/
+
+body {
+	font-family:"garamond-premier-pro", "Hoefler Text", "Times New Roman", Times, serif;
+	font-size:18px;
+}
+
+h1,h2,h3,h4,h5,h6 {
+	font-family:"league-gothic",impact,sans-serif;
+	font-weight:400;
+	text-transform:uppercase;
+	color:#527557;
+}
+p {
+	margin:1em 0;
+	font-size:18px;
+}
+.entry-title {
+	border-bottom:5px solid #527557;
+}
+.hentry h1, .hentry h2, .hentry h3, .hentry h4, .hentry h5, .hentry h6 {
+	margin:.5em 0;
+}
+.entry-content {
+	line-height:normal;
+}
+::selection {
+	background-color:#999;
+}
+::-moz-selection {
+	background-color:#999;
+}
+.hentry ul, .hentry ol {
+	font-size:100%;
+}
+/*a {
+	color:#555;
+}*/
+footer {
+	background-color:black;
+}
+.alignleft {
+	margin-bottom:10px;
+}
+h1, .fpost .entry-title {
+	font-size:2.5em;
+}
+.entry-title a, .entry-title {
+	color:#56400d;
+}
+.fpost .post-excerpt {
+	font-size: 18px;
+	line-height: 1.4em;
+}
+/*--------------------------------Section styling--------------------------------*/
+
+/*.header {
+	background-color:#e3d9ce;
+}*/
+
+/*Slider on Homepage*/
+
+.fslider {
+	background: none;
+	box-shadow: none;
+	padding: 0px;
+}
+
+.flex-caption {
+	max-width:100%;
+}
+
+.navbar .plbrand {
+	margin:4px 1% 0 0;
+}
+
+/*Remove background on hover from navbar items*/
+.navbar.pl-color-base .navline > li:hover > a, .navbar.pl-color-base .navline > li.current-menu-item > a, .navbar.pl-color-base .navline > li.dropdown.open > a {
+	background-color:transparent;
+	box-shadow:none;
+ }
+
+.navbar.navbar-full-width.pl-color-base {
+	background:url(http://freemarketcafe.com/wp-content/uploads/2013/10/header_bg.gif) repeat;	
+}
+
+#navbar li {
+	font-weight:bold;	
+	font-family:"garamond-premier-pro", "Hoefler Text", "Times New Roman", Times, serif;
+	font-size:1.3em;
+}
+
+#navbar li:hover {
+	background-color:transparent;	
+}
+
+.section-simple_nav .pl-section-pad {
+	padding:0;
+}
+
+.section-textbox .pl-section-pad .textbox-wrap {
+	padding:0;
+}
+
+.section-simple_nav li a {
+	font-weight:bold;
+	font-size:1.2em;
+	color:#56400d;
+}
+
+#pl_areakv5m6m {
+	box-shadow:0px 5px 3px #888888;
+}
+
+/*Sidebar*/
+.section-sb_primary {
+	box-shadow: 1px 1px 5px #888;
+	/*background:url() repeat;*/
+}
+
+#categories-2 li {
+	background:url(http://freemarketcafe.com/wp-content/uploads/2013/10/fmcCats.jpg) no-repeat;
+	height:80px;
+	background-size:contain;
+}
+
+#categories-2 li a {
+	margin: 25px 0 0 115px;
+	position: absolute;
+	font-size:large;
+}
+
+#search-2 .searchform .searchfield {
+	width: 323px;
+}
+
+/*Social Media Widget*/
+#socialWidget {
+	width:100%;border:1px solid white;	
+}
+#socialWidget h1 {
+	background-color:#527557;height:100%;margin:0px;padding:0px;padding-top:10px;text-align:center;color:white;border-bottom:1px solid white;		
+}
+.network {
+	height: auto;
+	border-bottom: 1px solid white;
+	background-color: #5A9A63;
+	text-align:center;
+	padding:5px;
+}
+
+/*FooterNav*/
+#simple_nave43b4b li a {
+	font-size:1em;
+	font-weight:400;
+	color:#BDA46D;
+}
+footer .disclaimer  p{
+	color:#BDA46D;
+	line-height:normal;
+	margin:20px;
+}
+
+/*Page-specific styling*/
+
+/*bbPress*/
+
+#bbpress-forums p, #bbpress-forums a {
+	font-size:16px;
+}
+
+.media-list > li .excerpt {
+	font-size:16px;
+}
+
+#textbox6rqdmi {
+	display:none;
+}
+/*Receipt Optin
+
+#signup {
+	background-image:url(http://freemarketcafe.com/wp-content/uploads/2013/10/FMC-Receipt.gif);
+	background-repeat:no-repeat;	
+	background-size:cover;
+	width:325px;
+	height:400px;
+	position:relative;
+}
+#receipt_form {
+	position: absolute;
+	top: 310px;
+	left: 5%;
+	width: 90%;
+}
+#receipt_form input {
+	display:inline;	
+}
+#receipt_form input[name="emailAddress"] {	
+	background:transparent;
+	border:none;
+	border-bottom:1px solid black;
+	width:100%;
+	height:30px;
+	font-size:1em;
+}
+#receipt_form input[type=submit] {	
+	width:100%;
+	color:#FFF;
+	background-color:#134B26;
+	background-image:none;
+	height:30px;
+	text-transform:uppercase;
+	border:none;
+	padding:0;
+	padding:5px 0 5px 0;
+}
+#receipt_form p {
+	margin:0px;	
+}
+#receipt_form #form_elements {
+	overflow:visible;
+}
+.nowrap {
+	white-space:nowrap;	
+}*/
+
+/*Coming Soon Optin*/
+
+#midOptin {
+	border:5px solid #BDA46D;
+	border-radius:3px;
+	background:#000;
+	color:#000;	
+	padding:5px;
+}
+#midOptin input {
+	width:100%;	
+	height:50px;
+	font-size:24px;
+	text-align:center;
+	margin-bottom:0;
+}
+
+/*TDG Optin*/
+
+form[name=SimpleSignUp] {
+	
+}
+
+form[name=SimpleSignUp] input[type=text] {
+	width:100%;
+}
+
+#post-24 form[name=SimpleSignUp] input[type=submit] {
+	background:url('http://freemarketcafe.com/wp-content/uploads/2013/10/header_bg.gif') #c9b47b repeat;
+	border:1px solid #c9b47b;
+	font-weight:bold;
+}
+
+/*#ibox34x3ln {
+	border-style: solid;
+  border-width: 1px;
+  border-color: rgb( 122, 100, 62 );
+  background-image: -moz-linear-gradient( 90deg, rgb(110,110,79) 1%, rgb(153,153,102) 47%, rgb(132,132,91) 100%);
+  background-image: -webkit-linear-gradient( 90deg, rgb(110,110,79) 1%, rgb(153,153,102) 47%, rgb(132,132,91) 100%);
+  background-image: -ms-linear-gradient( 90deg, rgb(110,110,79) 1%, rgb(153,153,102) 47%, rgb(132,132,91) 100%);
+}*/
+
+
+
+/* Small devices (tablets, 768px and up) */
+@media (min-width: 768px) { 
+	
+	#pl_areakv5m6m .pl-inner {
+	min-height:630px;
+	}
+	
+	#categories-2 li a {
+	margin: 30px 0 0 140px;
+	position: absolute;
+	font-size:large;
+	}
+
+	#textbox6rqdmi {
+	display:block;
+	}
+	
+	.fslider img {
+	max-height: 500px;
+	min-height: 0; 
+	}
+	
+}
+
+/* Medium devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+	
+	
+	
+}
+
+/* Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+	
+	.fslider img {
+	max-height: 500px;
+	min-height: 500px; 
+	}
+	
+}

@@ -1,0 +1,17 @@
+
+# BEGIN WordPress
+<IfModule mod_rewrite.c>
+RewriteEngine On
+RewriteBase /
+RewriteRule ^index\.php$ - [L]
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule . /index.php [L]
+</IfModule>
+
+# END WordPress
+
+#RewriteRule ^$ /cache/homepage.html [L]
+
+redirect 301 /iuconference http://freemarketcafe.com/research/bitcoin/?code=X3FMQ335
+redirect 301 /IUconference http://freemarketcafe.com/research/bitcoin/?code=X3FMQ335
