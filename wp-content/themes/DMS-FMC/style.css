@@ -320,3 +320,10 @@ form[name=SimpleSignUp] input[type=text] {
 	}
 	
 }
+
+body .pl-content img.nivo-main-image {
+	height:450px !important;
+}
+.nivo-caption {
+	font-size:40px;
+}
