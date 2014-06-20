@@ -330,6 +330,6 @@ body .pl-content img.nivo-main-image {
 
 
 
-body .homeSlider .pl-inner {
+body #dynamic-content .homeSlider .pl-area-wrap .pl-content .pl-inner {
 	min-height:550px;
 }
