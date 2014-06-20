@@ -327,3 +327,9 @@ body .pl-content img.nivo-main-image {
 .nivo-caption {
 	font-size:40px;
 }
+
+
+
+.homeSlider .pl-inner {
+	min-height:550px;
+}
